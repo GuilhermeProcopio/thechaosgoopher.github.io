@@ -29,9 +29,6 @@ jobs:
 
       - name: Install Bundler
         run: gem install bundler -v 2.3.26
-      
-      - name: Install dependencies
-        run: bundle update
               
       - name: Setup Pages
         id: pages
