@@ -9,12 +9,13 @@ source "https://rubygems.org"
 # If you have any plugins, put them here!
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 group :jekyll_plugins do
-    gem 'jekyll-feed'
+    gem 'jekyll', '~> 4.2.0'
+    gem 'jekyll-feed', '~> 0.15.0' # Atualize para uma versão mais recente
     gem 'jekyll-sitemap'
     gem 'jekyll-paginate'
     gem 'jekyll-seo-tag'
     gem 'jekyll-archives'
-    gem 'kramdown'
+    gem 'kramdown', '~> 2.3.0' # Atualize para a versão 2.x
     gem 'rouge'
-    gem "kramdown-parser-gfm"
+    gem 'kramdown-parser-gfm', '~> 1.1.0'
 end
